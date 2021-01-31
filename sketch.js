@@ -96,7 +96,7 @@ function draw(){
        background.x = background.width/4;
        }
     
-    if(monkey.isTouching(obstacleGroup)){
+    if(obstacleGroup.isTouching(monkey)){
       monkey.scale = 0.09;
       count = count +1;
     }
