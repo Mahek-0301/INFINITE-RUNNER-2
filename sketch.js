@@ -97,12 +97,7 @@ function draw(){
        }
     
     if(obstacleGroup.isTouching(monkey)){
-      monkey.scale = 0.09;
-      count = count +1;
-    }
-    
-    if(count > 2){
-      gameState = END;
+      gameState= END;
     }
     
     drawSprites();
